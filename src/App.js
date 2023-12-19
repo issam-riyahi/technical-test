@@ -20,8 +20,8 @@ function App() {
               color : `${count > 0 ? 'blue' : count < 0 ? 'red' : '#000'}`
             }}>{count}</span>
             <div className="app__buttons">
-               <Button onclick={decrease} styles={{backgroundColor : "blue"}} > - </Button>
-               <Button onclick={increment} styles={{backgroundColor : "red"}}> + </Button>
+               <Button onclick={decrease} styles={{backgroundColor : "red"}} > - </Button>
+               <Button onclick={increment} styles={{backgroundColor : "blue"}}> + </Button>
             </div>
          </div>
       </div>
